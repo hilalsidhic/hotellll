@@ -1,0 +1,93 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	margin:0;
+	padding:0;
+	background-image: url(https://mewallpaper.com/thumbnail/city/9396-vw-bus-toy-hq-image-free-wallpaper.jpg);
+	background-size: auto;
+	
+	width:1500px;
+	height:750px;
+	font-family: sans-serif;
+	
+
+}
+.loginbox{
+	
+
+	width: 340px;
+	height:485px;
+	background:black;
+	color:#fff; 
+	top:50%;
+	left:50%;
+	position: fixed;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	opacity: .9;
+	padding: 70px ;
+
+
+}
+.avatar{
+	width:100px; 
+	height:100px;
+	border-radius:49%;
+	position: absolute;
+	top:-35%;
+	left:calc(50% - 60px); 
+	transform: translateY(+90%);
+
+
+}
+a{
+	color: #fff;
+	font-size:12px;
+	font-family: sans-serif;
+	
+
+
+
+}
+.loginbox label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	opacity: 1;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="email"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background:#ffa554 ;
+	color: #fff;
+	font-size:18px;
+	border-radius: 20px;
+
+
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #fff;
+	color: #000;
+}
+a:hover{
+	color: red;
+}
+h1{
+	border-bottom: 6px solid #ffa554;
+
+}
